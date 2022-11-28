@@ -214,16 +214,25 @@ body {
 
 
 /* Mobile */
-/* Header - margini già specificati in css - tengono per Mobile*/
+/* Header - margini già specificati in css - tengono per Mobile - bisogna aggiungere burger menù*/
 
-/* Section-1 */
+/* Main - Section-1 */
+/* @media screen and (min-width: 480px) {
+    #section-1 .col {
+        width: 100%;
+    }
 
+    #section-1 .col-special {
+        width: 100%;
+    }
+} */
 
 
 /* Tablet */
-/* Header - risolto da Mobile */
+/* Header - risolto da Mobile - manca burger menù */
 
-/* Section-1 */
+/* Main - Section-1 */
 
 
-/* Desktop c'è già*/
+
+/* Desktop */
