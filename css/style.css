@@ -42,12 +42,16 @@ body {
     margin: 0 auto;
 }
 
+.margin {
+    margin: 3em 1em;
+}
+
 .margin-middle {
-    margin: 0 3em;
+    margin: 3em 6em;
 }
 
 .margin-small {
-    margin: 0 5em;
+    margin: 0em 8em;
 }
 
 .text-align {
@@ -67,10 +71,6 @@ body {
 
 /* REGOLE MAIN */
 /* Section 1 */
-#section-1 .columns {
-    margin: 3em 1em;
-}
-
 #section-1 .col {
     background-color: var(--primary-color-light);
     width: 32%;
@@ -88,20 +88,16 @@ body {
     width: 50%;
 }
 
+
 /* Section 2 */
 #section-2 {
     background-color: var(--secondary-color);
 }
 
-#section-2 .columns {
-    margin: 3em 6em;
-}
 
 #section-2 .col {
     width: 50%;
 }
-
-
 
 
 /* Section 3 */
@@ -118,9 +114,6 @@ body {
 }
 /* height da togliere quando aggiunto contenuto */
 
-#section-3 .card:last-child {
-    margin-bottom: 3em;
-}
 
 #section-3 .box:first-child {
     width: 20%;
@@ -134,11 +127,6 @@ body {
 /* Section 4 */
 #section-4 {
     background-color: var(--secondary-color);
-}
-
-#section-4 .text {
-    padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 #section-4 .columns {
@@ -157,8 +145,8 @@ body {
 
 /* Sezione 5 */
 #section-5 .columns {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 3em 0;
+    margin: 0 1em;
 }
 
 #section-5 .col:first-child {
@@ -169,9 +157,8 @@ body {
     width: 30%;
 }
 
-#section-5 .text, p {
-    padding-bottom: 1em;
-    padding-right: 1em;
+#section-5 p {
+    padding: 1em 1em 0 0;
 }
 
 /* Sezione 6 */
@@ -179,9 +166,6 @@ body {
     background-color: var(--secondary-color);
 }
 
-#section-6 .texts {
-    margin: 3em 8em 0 8em;
-}
 
 #section-6 .texts > * {
     padding-bottom: 1em;
@@ -194,11 +178,11 @@ body {
 
 
 #section-6 .text:first-child {
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 #section-6 .text:last-child {
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 
@@ -209,16 +193,12 @@ body {
     color: white;
 }
 
-#end .texts {
-    margin: 3em 8em;
-}
-
 #end .text:first-child {
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 #end .text:last-child {
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 #end .texts > * {
