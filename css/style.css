@@ -103,9 +103,27 @@ body {
     width: 50%;
 }
 
+/* Section 3 */
+#section-3 .text {
+    margin-bottom: 2em;
+}
 
+#section-3 .card {
+    background-color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 0.5em;
 
+    height: 100px; 
+}
+/* height da togliere quando aggiunto contenuto */
 
+#section-3 .box:first-child {
+    width: 20%;
+}
+
+#section-3 .box:last-child {
+    width: 80%;
+}
 
 /* REGOLE FOOTER */
 
