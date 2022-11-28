@@ -62,10 +62,33 @@ body {
 }
 
 #intro .col {
-    padding: 1em 0;
+    margin: 1em 1em;
 }
 
+
+
 /* REGOLE MAIN */
+#section-1 .cards {
+    margin: 3em 1em;
+}
+
+#section-1 .card {
+    background-color: var(--primary-color-light);
+    width: 32%;
+    margin-bottom: 0.5em;
+}
+
+#section-1 .card-special {
+    background-color: var(--primary-color-light);
+    width: 66%;
+    margin-bottom: 0.5em;
+}
+/* chiedere perchè non funziona con flex-grow -- perchè c'è width impostata? */
+
+#section-1 .box {
+    width: 50%;
+}
+
 
 /* REGOLE FOOTER */
 
@@ -81,11 +104,19 @@ body {
 
 
 /* REGOLE RESPONSIVE */
+
+
 /* Mobile */
-@media screen and (min-width: 480px) {
-    #intro .col {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-}
-/* ricorda padding per allineamento! */
+/* Header - margini già specificati in css - tengono per Mobile*/
+
+/* Section-1 */
+@media screen 
+
+
+/* Tablet */
+/* Header - risolto da Mobile */
+
+/* Section-1 */
+
+
+/* Desktop c'è già*/
