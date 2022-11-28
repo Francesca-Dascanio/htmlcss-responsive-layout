@@ -4,3 +4,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* REGOLE GENERALI */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
+    --text-yellow:#fdc15f;
+    --bg-footer: #333333; 
+
+}
+
+.color-white {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.margin-middle {
+    margin: 0 3em;
+}
+
+.margin-small {
+    margin: 0 5em;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* REGOLE HEADER */
+#intro {
+    background-color: var(--primary-color);
+}
+
+#intro .col {
+    padding: 1em 0;
+}
+
+/* REGOLE MAIN */
+
+/* REGOLE FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+/* REGOLE RESPONSIVE */
+/* Mobile */
+@media screen and (min-width: 480px) {
+    #intro .col {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+/* ricorda padding per allineamento! */
