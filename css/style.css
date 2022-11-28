@@ -68,17 +68,18 @@ body {
 
 
 /* REGOLE MAIN */
-#section-1 .cards {
+/* Section 1 */
+#section-1 .columns {
     margin: 3em 1em;
 }
 
-#section-1 .card {
+#section-1 .col {
     background-color: var(--primary-color-light);
     width: 32%;
     margin-bottom: 0.5em;
 }
 
-#section-1 .card-special {
+#section-1 .col-special {
     background-color: var(--primary-color-light);
     width: 66%;
     margin-bottom: 0.5em;
@@ -88,6 +89,22 @@ body {
 #section-1 .box {
     width: 50%;
 }
+
+/* Section 2 */
+#section-2 {
+    background-color: var(--secondary-color);
+}
+
+#section-2 .columns {
+    margin: 3em 6em;
+}
+
+#section-2 .col {
+    width: 50%;
+}
+
+
+
 
 
 /* REGOLE FOOTER */
@@ -110,7 +127,7 @@ body {
 /* Header - margini già specificati in css - tengono per Mobile*/
 
 /* Section-1 */
-@media screen 
+
 
 
 /* Tablet */
