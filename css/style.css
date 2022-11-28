@@ -180,7 +180,7 @@ body {
 }
 
 #section-6 .texts {
-    margin: 3em 8em;
+    margin: 3em 8em 0 8em;
 }
 
 #section-6 .texts > * {
@@ -201,7 +201,31 @@ body {
     padding-bottom: 2em;
 }
 
+
+
 /* REGOLE FOOTER */
+#end {
+    background-color: var(--bg-footer);
+    color: white;
+}
+
+#end .texts {
+    margin: 3em 8em;
+}
+
+#end .text:first-child {
+    padding-top: 2em;
+}
+
+#end .text:last-child {
+    padding-bottom: 2em;
+}
+
+#end .texts > * {
+    padding-bottom: 1em;
+}
+
+
 
 
 
