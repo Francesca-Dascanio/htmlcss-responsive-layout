@@ -14,14 +14,12 @@ body {
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
+    --tertiary-color: white;
     --text-yellow:#fdc15f;
     --bg-footer: #333333; 
 
 }
 
-.color-white {
-    color: white;
-}
 
 .flex {
     display: flex;
@@ -103,6 +101,9 @@ body {
     width: 50%;
 }
 
+
+
+
 /* Section 3 */
 #section-3 .text {
     margin-bottom: 2em;
@@ -117,6 +118,10 @@ body {
 }
 /* height da togliere quando aggiunto contenuto */
 
+#section-3 .card:last-child {
+    margin-bottom: 3em;
+}
+
 #section-3 .box:first-child {
     width: 20%;
 }
@@ -125,15 +130,38 @@ body {
     width: 80%;
 }
 
+
+/* Section 4 */
+#section-4 {
+    background-color: var(--secondary-color);
+}
+
+#section-4 .text {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#section-4 .columns {
+    padding-bottom: 2em;
+}
+
+#section-4 .col {
+    background-color: var(--tertiary-color);
+    width: 32%;
+    margin-bottom: 1em;
+    
+
+    height: 150px;
+}
+/* height da togliere quando aggiunto contenuto */
+
+
+
+
+
+
+
 /* REGOLE FOOTER */
-
-
-
-
-
-
-
-
 
 
 
