@@ -155,8 +155,24 @@ body {
 }
 /* height da togliere quando aggiunto contenuto */
 
+/* Sezione 5 */
+#section-5 .columns {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
+#section-5 .col:first-child {
+    width: 70%;
+}
 
+#section-5 .col:last-child {
+    width: 30%;
+}
+
+#section-5 .text, p {
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
 
 
 
