@@ -14,7 +14,9 @@ body {
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
-    --light-color: #FFFFFF; 
+    --light-color: #FFFFFF;
+    --dark-color: #000000;
+    --quite-dark-color: #808080; 
     --text-yellow:#fdc15f;
     --bg-footer: #333333; 
 
@@ -69,6 +71,19 @@ img {
     padding: 0.5em;
 }
 
+.color-primary {
+    color: var(--primary-color);
+}
+
+.color-dark {
+    color: var(--dark-color);
+}
+
+.color-quite-dark {
+    color: var(--quite-dark-color);
+}
+
+
 
 
 /* REGOLE HEADER */
@@ -89,6 +104,7 @@ img {
 
 #intro .col i {
     display: none;
+    color: var(--light-color);
 }
 
 #intro ul li {
@@ -120,18 +136,58 @@ img {
     background-color: var(--primary-color-light);
     width: 32%;
     margin-bottom: 0.5em;
+    border-radius: 15px;
 }
 
 #section-1 .col-special {
     background-color: var(--primary-color-light);
     width: 66%;
     margin-bottom: 0.5em;
+    border-radius: 15px;
 }
 /* chiedere perchè non funziona con flex-grow -- perchè c'è width impostata? */
 
 #section-1 .box {
     width: 50%;
 }
+
+#section-1 .col > * {
+    padding: 0 10px 10px 10px;
+}
+
+#section-1 i:first-child {
+    padding-top: 10px;
+}
+
+#section-1 p {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#section-1 .box .button {
+    background-color: var(--primary-color);
+    color: var(--light-color)
+}
+
+#section-1 .box a {
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+
+#section-1 .box > h3, p {
+    padding: 0 20px 10px 10px;
+}
+
+#section-1 .box h3 {
+    padding-top: 10px;
+}
+
+#section-1 img {
+    width: 40%;
+}
+
+
+
 
 
 /* Section 2 */
@@ -295,7 +351,16 @@ img {
     #section-1 .col-special {
         flex-direction: column;
     }
+
+    #section-1 .col-special .box {
+        width: 100%;
+    }
+
+    #section-1 .col-special .box:last-child {
+        margin-top: 20px;
+    }
 }
+
 
 /* Main - section 2 */
 @media screen and (max-width: 768px) {
@@ -324,6 +389,14 @@ img {
 @media screen and (max-width: 480px) {
     #section-1 .columns > * {
         width: 100%;
+    }
+
+    #section-1 .col-special .box:first-child {
+        text-align: center;
+    }
+
+    #section-1 .col-special .box:last-child {
+        justify-content: center;
     }
 }
 
