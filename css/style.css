@@ -252,6 +252,14 @@ body {
 }
 
 
+/* Main- section 4 */
+@media screen and (max-width: 768px) {
+    #section-4 .col {
+        width: 49%;
+    }
+}
+
+
 /* Mobile > 480px */
 /* Main - section 1 */
 @media screen and (max-width: 480px) {
@@ -269,5 +277,13 @@ body {
 
     #section-3 .box {
         padding: 1em;
+    }
+}
+
+
+/* Main - section 4 */
+@media screen and (max-width: 480px) {
+    #section-4 .col {
+        width: 100%;
     }
 }
