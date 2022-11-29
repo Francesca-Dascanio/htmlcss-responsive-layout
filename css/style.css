@@ -243,11 +243,11 @@ body {
     #section-2 .columns {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 1em;
     }
 
     #section-2 .col {
-        padding: 10px;
+        padding: 1em;
     }
 }
 
@@ -257,5 +257,17 @@ body {
 @media screen and (max-width: 480px) {
     #section-1 .columns > * {
         width: 100%;
+    }
+}
+
+/* Main - section 3 */
+@media screen and (max-width: 480px) {
+    #section-3 .card {
+        flex-direction: column;
+        padding: 0.1em;
+    }
+
+    #section-3 .box {
+        padding: 1em;
     }
 }
