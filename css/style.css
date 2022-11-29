@@ -654,6 +654,43 @@ img {
 /* togliere margin-small */
 /* togliere margin a p */
 
+@media screen and (max-width: 480px) {
+    #section-6 .texts{
+        margin: 0em 1em;
+    }
+
+    #section-6 p {
+        padding: 0em 0em 2em;
+    }
+    
+    #section-6 a {
+        color: var(--secondary-color);
+        font-size: 0.8em;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0em 0em 2em;
+        /* display: inline-block; */
+        /* non riesco a centrare il link */
+    }
+    
+    #section-6 .text:last-child {
+        margin: 0em 0em;
+        padding-bottom: 3em;
+    }
+    
+
+}
+
 /* Footer */
 /* togliere margin-small */
 /* togliere margin a p */
+
+@media screen and (max-width: 480px) {
+    #end .texts{
+        margin: 0em 1em;
+    }
+
+    #end p {
+        margin: 0em 0em 0em;
+    }
+}
