@@ -38,7 +38,7 @@ body {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -235,6 +235,19 @@ body {
 
     #section-1 .col-special {
         flex-direction: column;
+    }
+}
+
+/* Main - section 2 */
+@media screen and (max-width: 768px) {
+    #section-2 .columns {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #section-2 .col {
+        padding: 10px;
     }
 }
 
