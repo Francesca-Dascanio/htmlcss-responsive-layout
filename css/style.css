@@ -14,7 +14,7 @@ body {
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
-    --tertiary-color: white;
+    --light-color: #FFFFFF; 
     --text-yellow:#fdc15f;
     --bg-footer: #333333; 
 
@@ -58,9 +58,29 @@ body {
     text-align: center;
 }
 
+img {
+    width: 100%;
+}
+
+.button {
+    border-radius: 20px;
+    background-color: var(--light-color);
+    color: black;
+    padding: 0.5em;
+}
+
+
+
 /* REGOLE HEADER */
 #intro {
     background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+#intro .columns {
+    align-items: center;
 }
 
 #intro .col {
@@ -71,9 +91,31 @@ body {
     display: none;
 }
 
+#intro ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#intro ul li a {
+    text-decoration: none;
+}
+
+#intro ul li a:not(.button) {
+    color: var(--light-color);
+}
+
+
+
+
 
 /* REGOLE MAIN */
 /* Section 1 */
+#section-1 {
+    scroll-margin-top: 6em;
+}
+
 #section-1 .col {
     background-color: var(--primary-color-light);
     width: 32%;
@@ -95,6 +137,7 @@ body {
 /* Section 2 */
 #section-2 {
     background-color: var(--secondary-color);
+    scroll-margin-top: 6em;
 }
 
 
@@ -104,6 +147,10 @@ body {
 
 
 /* Section 3 */
+#section-3 {
+    scroll-margin-top: 6em;
+}
+
 #section-3 .text {
     margin-bottom: 2em;
 }
@@ -130,6 +177,7 @@ body {
 /* Section 4 */
 #section-4 {
     background-color: var(--secondary-color);
+    scroll-margin-top: 6em;
 }
 
 #section-4 .columns {
@@ -147,6 +195,10 @@ body {
 /* height da togliere quando aggiunto contenuto */
 
 /* Sezione 5 */
+#section-5 {
+    scroll-margin-top: 6em;
+}
+
 #section-5 .columns {
     padding: 3em 0;
     margin: 0 1em;
@@ -167,6 +219,7 @@ body {
 /* Sezione 6 */
 #section-6 {
     background-color: var(--secondary-color);
+    scroll-margin-top: 6em;
 }
 
 
