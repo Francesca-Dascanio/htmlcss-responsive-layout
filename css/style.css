@@ -67,6 +67,9 @@ body {
     margin: 1em 1em;
 }
 
+#intro .col i {
+    display: none;
+}
 
 
 /* REGOLE MAIN */
@@ -212,27 +215,34 @@ body {
 
 /* REGOLE RESPONSIVE */
 
-
-/* Mobile */
-/* Header - margini già specificati in css - tengono per Mobile - bisogna aggiungere burger menù*/
-
-/* Main - Section-1 */
-/* @media screen and (min-width: 480px) {
-    #section-1 .col {
-        width: 100%;
+/* Tablet > 768px */
+/* Header */
+@media screen and (max-width: 768px) {
+    #intro .col i {
+        display: block;
     }
+    
+    #intro .col nav {
+        display: none;
+    }
+}
+
+/* Main - section 1 */
+@media screen and (max-width: 768px) {
+    /* #section-1 .box {
+        width: 100%;
+    }  chiedere perchè non funziona */ 
 
     #section-1 .col-special {
+        flex-direction: column;
+    }
+}
+
+
+/* Mobile > 480px */
+/* Main - section 1 */
+@media screen and (max-width: 480px) {
+    #section-1 .columns > * {
         width: 100%;
     }
-} */
-
-
-/* Tablet */
-/* Header - risolto da Mobile - manca burger menù */
-
-/* Main - Section-1 */
-
-
-
-/* Desktop */
+}
