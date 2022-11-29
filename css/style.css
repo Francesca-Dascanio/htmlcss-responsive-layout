@@ -188,6 +188,9 @@ body {
     padding-bottom: 3em;
 }
 
+#section-6 p {
+    padding: 1em;
+}
 
 
 /* REGOLE FOOTER */
@@ -208,6 +211,9 @@ body {
     padding-bottom: 1em;
 }
 
+#end p {
+    padding: 1em;
+}
 
 
 
