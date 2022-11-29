@@ -280,10 +280,21 @@ body {
     }
 }
 
-
 /* Main - section 4 */
 @media screen and (max-width: 480px) {
     #section-4 .col {
         width: 100%;
+    }
+}
+
+/* Main - section 5 */
+@media screen and (max-width: 480px) {
+    #section-5 .columns {
+        flex-direction: column;
+        padding: 0.1em;
+    }
+
+    #section-5 .col {
+        padding-bottom: 1em;
     }
 }
