@@ -254,6 +254,18 @@ img {
     scroll-margin-top: 6em;
 }
 
+#section-3 .texts div {
+    font-size: 0.8em;
+}
+
+#section-3 .texts h2 {
+    color: var(--secondary-color);
+}
+
+#section-3 .texts p {
+    font-size: 0.8em;
+}
+
 #section-3 .text {
     margin-bottom: 2em;
 }
@@ -262,14 +274,35 @@ img {
     background-color: var(--secondary-color);
     width: 100%;
     margin-bottom: 0.5em;
-
-    height: 100px; 
+    border-radius: 15px;
 }
 /* height da togliere quando aggiunto contenuto */
 
+#section-3 .card {
+    justify-content: center;
+    align-items: center;
+}
 
 #section-3 .box:first-child {
     width: 20%;
+}
+
+#section-3 .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#section-3 .card .quote {
+    font-size: 0.8em;
+    color: var(--light-color);
+}
+
+#section-3 .card .quote p {
+    padding-bottom: 2em;
 }
 
 #section-3 .box:last-child {
@@ -296,6 +329,9 @@ img {
     height: 150px;
 }
 /* height da togliere quando aggiunto contenuto */
+
+
+
 
 /* Sezione 5 */
 #section-5 {
@@ -456,11 +492,20 @@ img {
 @media screen and (max-width: 480px) {
     #section-3 .card {
         flex-direction: column;
+        justify-content: center;
         padding: 0.1em;
     }
 
     #section-3 .box {
         padding: 1em;
+    }
+
+    #section-3 .box:first-child {
+        width: 100%;
+    }
+
+    #section-3 .box:last-child {
+        width: 100%;
     }
 }
 
